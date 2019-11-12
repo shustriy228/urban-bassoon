@@ -13,8 +13,8 @@ class BotsList extends React.Component{
         <Header style={{ background: '#fff', padding: 15 }}>
             <Title level={3}>
                 <span>
-                All bots
-                <Divider type="vertical" style={{marginLeft: 15, marginRight: 15}}/>
+                All bots 
+                <Divider type="vertical" style={{marginLeft: 15, height: 15, marginRight: 15}}/>
                 <RefreshButton/>
                 </span>
             </Title>
