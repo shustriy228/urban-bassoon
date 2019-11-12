@@ -1,7 +1,7 @@
-export const initialState = {
-  tableBots: [],
-}
+import { combineReducers } from "redux"; // объединяет редьюсеры
+import clients from "./bots";
 
-export function rootReducer(state = initialState) {
-  return state
-}
+export default combineReducers({
+  clients
+  // ...,
+});
